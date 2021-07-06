@@ -1,0 +1,60 @@
+
+export enum UserActionTypes {
+    LOGIN_USER = '[Users] LOGIN_USER',
+    LOGIN_USER_SUCCESS = '[Users] LOGIN_USER_SUCCESS',
+    LOGIN_USER_FAIL = '[Users] LOGIN_USER_FAIL',
+
+    SIGNUP_USER = '[Users] SIGNUP_USER',
+    SIGNUP_USER_SUCCESS = '[Users] SIGNUP_USER_SUCCESS',
+    SIGNUP_USER_FAIL = '[Users] SIGNUP_USER_FAIL',
+
+    GET_CLIENT_SESSION = '[Users] GET_CLIENT_SESSION',
+    GET_CLIENT_SESSION_SUCCESS = '[Users] GET_CLIENT_SESSION_SUCCESS',
+    GET_CLIENT_SESSION_FAIL = '[Users] GET_CLIENT_SESSION_FAIL',
+
+    LOGOUT_USER = '[Users] LOGOUT_USER',
+    LOGOUT_USER_SUCCESS = '[Users] LOGOUT_USER_SUCCESS',
+    LOGOUT_USER_FAIL = '[Users] LOGOUT_USER_FAIL',
+    
+    RESET_PASSWORD = 'RESET_PASSWORD',
+    RESET_PASSWORD_SUCCESS = 'RESET_PASSWORD_SUCCESS',
+    RESET_PASSWORD_FAIL = 'RESET_PASSWORD_FAIL',
+
+    UPDATE_PASSWORD = 'UPDATE_PASSWORD',
+    UPDATE_PASSWORD_SUCCESS = 'UPDATE_PASSWORD_SUCCESS',
+    UPDATE_PASSWORD_FAIL = 'UPDATE_PASSWORD_FAIL',
+
+    GET_USER_INFO = 'GET_USER_INFO',
+
+    UPDATE_USER_INFO = '[Users] UPDATE_USER_INFO',
+    UPDATE_USER_INFO_SUCCESS = '[Users] UPDATE_USER_INFO_SUCCESS',
+    UPDATE_USER_INFO_FAIL = '[Users] UPDATE_USER_INFO_FAIL',
+
+    GET_USER_DETAIL = '[Users] GET_USER_DETAIL',
+    GET_USER_DETAIL_SUCCESS = '[Users] GET_USER_DETAIL_SUCCESS',
+    GET_USER_DETAIL_FAIL = '[Users] GET_USER_DETAIL_FAIL',
+
+    GET_RESSET_PASSWORD_TOKEN = '[Users] GET_RESSET_PASSWORD_TOKEN',
+
+    GET_MEMBER_CONFIRMATION = '[Users] GET_MEMBER_CONFIRMATION',
+    GET_MEMBER_CONFIRMATION_SUCCESS = '[Users] GET_MEMBER_CONFIRMATION_SUCCESS',
+    GET_MEMBER_CONFIRMATION_FAIL = '[Users] GET_MEMBER_CONFIRMATION_FAIL',
+
+}
+
+export interface IUserLogin {
+    email: string;
+    password: string;
+    program_id: number;
+}
+
+export interface IUserInfo {
+    userName: string,
+    userMiles: number,
+    userMemberType: string
+}
+export interface IUserResetPassword {
+    reset_password_token: string;
+    password: string;
+    password_confirm?: string;
+}

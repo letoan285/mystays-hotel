@@ -1,0 +1,42 @@
+<svg id="Icon_Social_LoginGoogle" data-name="Icon/Social/LoginGoogle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_1707" data-name="Clip 1707" d="M1.237,9.338H1.19A10.023,10.023,0,0,1,1.118,0L3.383.415l.993,2.252a5.975,5.975,0,0,0,.057,4.018l-.7,2.6-2.5.054Z" transform="translate(0 0.401)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Clip_1710" data-name="Clip 1710" d="M0,0H9.605A9.985,9.985,0,0,1,9.78,1.867a9.908,9.908,0,0,1-.219,2.088A10,10,0,0,1,6.04,9.666h0L3.187,9.519,2.783,7A5.968,5.968,0,0,0,5.347,3.955H0Z" transform="translate(0.22 0.133)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Clip_1713" data-name="Clip 1713" d="M0,2.651,3.241,0A5.947,5.947,0,0,0,8.809,3.858a5.907,5.907,0,0,0,3-.814l3.257,2.667h0a9.956,9.956,0,0,1-6.258,2.2A10,10,0,0,1,0,2.651Z" transform="translate(0.192 0.088)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Clip_1716" data-name="Clip 1716" d="M0,5.4A10,10,0,0,1,15.265,2.3l-3.24,2.652A5.946,5.946,0,0,0,3.258,8.069L0,5.4Z" transform="translate(0.118)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Social_LoginGoogle-2" data-name="Icon/Social/LoginGoogle">
+    <g id="Group_1708" data-name="Group 1708" transform="translate(0 5)">
+      <path id="Clip_1707-2" data-name="Clip 1707" d="M1.237,9.338H1.19A10.023,10.023,0,0,1,1.118,0L3.383.415l.993,2.252a5.975,5.975,0,0,0,.057,4.018l-.7,2.6-2.5.054Z" transform="translate(0 0.401)" fill="none"/>
+      <g id="Group_1708-2" data-name="Group 1708" clip-path="url(#clip-path)">
+        <path id="Fill_1706" data-name="Fill 1706" d="M0,19.338H14.433V0H0Z" transform="translate(-5 -4.599)" fill="#fbbb00"/>
+      </g>
+    </g>
+    <g id="Group_1711" data-name="Group 1711" transform="translate(10 8)">
+      <path id="Clip_1710-2" data-name="Clip 1710" d="M0,0H9.605A9.985,9.985,0,0,1,9.78,1.867a9.908,9.908,0,0,1-.219,2.088A10,10,0,0,1,6.04,9.666h0L3.187,9.519,2.783,7A5.968,5.968,0,0,0,5.347,3.955H0Z" transform="translate(0.22 0.133)" fill="none"/>
+      <g id="Group_1711-2" data-name="Group 1711" clip-path="url(#clip-path-2)">
+        <path id="Fill_1709" data-name="Fill 1709" d="M0,19.667H19.78V0H0Z" transform="translate(-4.78 -4.868)" fill="#518ef8"/>
+      </g>
+    </g>
+    <g id="Group_1714" data-name="Group 1714" transform="translate(1 12)">
+      <path id="Clip_1713-2" data-name="Clip 1713" d="M0,2.651,3.241,0A5.947,5.947,0,0,0,8.809,3.858a5.907,5.907,0,0,0,3-.814l3.257,2.667h0a9.956,9.956,0,0,1-6.258,2.2A10,10,0,0,1,0,2.651Z" transform="translate(0.192 0.088)" fill="none"/>
+      <g id="Group_1714-2" data-name="Group 1714" clip-path="url(#clip-path-3)">
+        <path id="Fill_1712" data-name="Fill 1712" d="M0,17.913H25.068V0H0Z" transform="translate(-4.808 -4.913)" fill="#28b446"/>
+      </g>
+    </g>
+    <g id="Group_1717" data-name="Group 1717" transform="translate(1)">
+      <path id="Clip_1716-2" data-name="Clip 1716" d="M0,5.4A10,10,0,0,1,15.265,2.3l-3.24,2.652A5.946,5.946,0,0,0,3.258,8.069L0,5.4Z" transform="translate(0.118)" fill="none"/>
+      <g id="Group_1717-2" data-name="Group 1717" clip-path="url(#clip-path-4)">
+        <path id="Fill_1715" data-name="Fill 1715" d="M0,18.068H25.265V0H0Z" transform="translate(-4.882 -5)" fill="#f14336"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,700 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('~assets/custom-fonts/icomoon.eot?');
+  src:  url('~assets/custom-fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('~assets/custom-fonts/icomoon.ttf?') format('truetype'),
+		url('~assets/custom-fonts/icomoon.woff?') format('woff'),
+		url('~assets/custom-fonts/icomoon.svg?#icomoon') format('svg'),
+		url('~assets/custom-fonts/icomoon/fonts/icomoon.svg?#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon';
+    speak: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow-Affordance:before {
+  content: "\f0000";
+}
+
+.icon-Arrow-Button:before {
+  content: "\e902";
+}
+
+.icon-Arrow-Plus:before {
+  content: "\e904";
+}
+
+.icon-Arrow-Small-Down:before {
+  content: "\e905";
+}
+
+.icon-Arrow-Small-Left:before {
+  content: "\e906";
+}
+
+.icon-Arrow-Small-Right:before {
+  content: "\e907";
+}
+
+.icon-Arrow-Small-Up:before {
+  content: "\e908";
+}
+
+.icon-Arrow-Thin-Down:before {
+  content: "\e909";
+}
+
+.icon-Arrow-Thin-Left:before {
+  content: "\e90a";
+}
+
+.icon-Arrow-Thin-Right:before {
+  content: "\e90b";
+}
+
+.icon-Arrow-Thin-Up:before {
+  content: "\e90c";
+}
+
+.icon-Arrow-xSmall-Down:before {
+  content: "\e90d";
+}
+
+.icon-Arrow-xSmall-Left:before {
+  content: "\e90e";
+}
+
+.icon-Arrow-xSmall-Right:before {
+  content: "\e90f";
+}
+
+.icon-Arrow-xSmall-Up:before {
+  content: "\e910";
+}
+
+.icon-Icon-404:before {
+  content: "\e911";
+}
+
+.icon-Icon-Alert:before {
+  content: "\e912";
+}
+
+.icon-Icon-Amenity-Air-Condition:before {
+  content: "\e913";
+}
+
+.icon-Icon-Amenity-Airport:before {
+  content: "\e914";
+}
+
+.icon-Icon-Amenity-Bath-Amenity:before {
+  content: "\e915";
+}
+
+.icon-Icon-Amenity-Breakfast:before {
+  content: "\e916";
+}
+
+.icon-Icon-Amenity-Buffet:before {
+  content: "\e917";
+}
+
+.icon-Icon-Amenity-Charger:before {
+  content: "\e918";
+}
+
+.icon-Icon-Amenity-Drinks:before {
+  content: "\e919";
+}
+
+.icon-Icon-Amenity-Electric-Kettle:before {
+  content: "\e91a";
+}
+
+.icon-Icon-Amenity-Flat-TV:before {
+  content: "\e91b";
+}
+
+.icon-Icon-Amenity-Hair-Dryer:before {
+  content: "\e91c";
+}
+
+.icon-Icon-Amenity-Mini-Fridge:before {
+  content: "\e91d";
+}
+
+.icon-Icon-Amenity-Offer:before {
+  content: "\e91e";
+}
+
+.icon-Icon-Amenity-Restaurant-Menu:before {
+  content: "\e91f";
+}
+
+.icon-Icon-Amenity-Restaurants:before {
+  content: "\e920";
+}
+
+.icon-Icon-Amenity-Safety-Box:before {
+  content: "\e921";
+}
+
+.icon-Icon-Amenity-Toilet:before {
+  content: "\e922";
+}
+
+.icon-Icon-Amenity-Transit:before {
+  content: "\e923";
+}
+
+.icon-Icon-Amenity-Wifi:before {
+  content: "\e924";
+}
+
+.icon-Icon-Arrow:before {
+  content: "\e925";
+}
+
+.icon-Icon-Bed:before {
+  content: "\e926";
+}
+
+.icon-Icon-Business:before {
+  content: "\e927";
+}
+
+.icon-Icon-Calendar:before {
+  content: "\e928";
+}
+
+.icon-Icon-Chat:before {
+  content: "\e929";
+}
+
+.icon-Icon-Checkmark:before {
+  content: "\e92a";
+}
+
+.icon-Icon-Close:before {
+  content: "\e92b";
+}
+
+.icon-Icon-Copy:before {
+  content: "\e92c";
+}
+
+.icon-Icon-Credit-Card:before {
+  content: "\e92d";
+}
+
+.icon-Icon-Currency-USD:before {
+  content: "\e92e";
+}
+
+.icon-Icon-Currency-YEN:before {
+  content: "\e92f";
+}
+
+.icon-Icon-Cursor-Hand:before {
+  content: "\e930";
+}
+
+.icon-Icon-Delete:before {
+  content: "\e931";
+}
+
+.icon-Icon-Download:before {
+  content: "\e932";
+}
+
+.icon-Icon-Email:before {
+  content: "\e933";
+}
+
+.icon-Icon-Error:before {
+  content: "\e934";
+}
+
+.icon-Icon-Expand:before {
+  content: "\e935";
+}
+
+.icon-Icon-Field-Clear:before {
+  content: "\e936";
+}
+
+.icon-Icon-Filter:before {
+  content: "\e937";
+}
+
+.icon-Icon-Free:before {
+  content: "\e938";
+}
+
+.icon-Icon-Front-Desk:before {
+  content: "\e939";
+}
+
+.icon-Icon-Gallery:before {
+  content: "\e93a";
+}
+
+.icon-Icon-Group:before {
+  content: "\e93b";
+}
+
+.icon-Icon-Heart-It:before {
+  content: "\e93c";
+}
+
+.icon-Icon-Hotel:before {
+  content: "\e93d";
+}
+
+.icon-Icon-Info:before {
+  content: "\e93e";
+}
+
+.icon-Icon-Languages:before {
+  content: "\e93f";
+}
+
+.icon-Icon-Link:before {
+  content: "\e940";
+}
+
+.icon-Icon-List:before {
+  content: "\e941";
+}
+
+.icon-Icon-Login:before {
+  content: "\e942";
+}
+
+.icon-Icon-Map-Pin:before {
+  content: "\e943";
+}
+
+.icon-Icon-Map:before {
+  content: "\e944";
+}
+
+.icon-Icon-Menu:before {
+  content: "\e945";
+}
+
+.icon-Arrow-Minus:before {
+  content: "\e946";
+}
+
+.icon-Icon-Nearby:before {
+  content: "\e947";
+}
+
+.icon-Icon-News:before {
+  content: "\e948";
+}
+
+.icon-Icon-Newsletter:before {
+  content: "\e949";
+}
+
+.icon-Icon-Onsen:before {
+  content: "\e94a";
+}
+
+.icon-Icon-People-2:before {
+  content: "\e94b";
+}
+
+.icon-Icon-Person:before {
+  content: "\e94c";
+}
+
+.icon-Icon-Personal-Details:before {
+  content: "\e94d";
+}
+
+.icon-Icon-Phone:before {
+  content: "\e94e";
+}
+
+.icon-Icon-Plus:before {
+  content: "\e94f";
+}
+
+.icon-Icon-Policies:before {
+  content: "\e950";
+}
+
+.icon-Icon-Print:before {
+  content: "\e951";
+}
+
+.icon-Icon-Profile:before {
+  content: "\e952";
+}
+
+.icon-Icon-Promo-Codes:before {
+  content: "\e953";
+}
+
+.icon-Icon-Required:before {
+  content: "\e954";
+}
+
+.icon-Icon-Reservations:before {
+  content: "\e955";
+}
+
+.icon-Icon-Reward:before {
+  content: "\e956";
+}
+
+.icon-Icon-Search:before {
+  content: "\e957";
+}
+
+.icon-Icon-Settings:before {
+  content: "\e958";
+}
+
+.icon-Icon-Share:before {
+  content: "\e959";
+}
+
+.icon-Icon-Social-Facebook:before {
+  content: "\e95a";
+}
+
+.icon-Icon-Social-Google:before {
+  content: "\e95b";
+}
+
+.icon-Icon-Social-Line:before {
+  content: "\e95c";
+}
+
+.icon-Icon-Social-Messenger:before {
+  content: "\e95e";
+}
+
+.icon-Icon-Minus:before {
+  content: "\e946";
+}
+
+.icon-Icon-Social-Pinterest:before {
+  content: "\e95f";
+}
+
+.icon-Icon-Social-TripAdvisor:before {
+  content: "\e960";
+}
+
+.icon-Icon-Social-Wechat:before {
+  content: "\e962";
+}
+
+.icon-Icon-Social-Weibo:before {
+  content: "\e963";
+}
+
+.icon-Icon-Social-Whatsapp:before {
+  content: "\e964";
+}
+
+.icon-Icon-Social-YouTube:before {
+  content: "\e965";
+}
+
+.icon-Icon-Sort:before {
+  content: "\e966";
+}
+
+.icon-Icon-Time:before {
+  content: "\e967";
+}
+
+.icon-Icon-Three-Dots:before {
+  content: "\e900";
+}
+
+.icon-Icon-Timer:before {
+  content: "\e968";
+}
+
+.icon-Icon-Undo:before {
+  content: "\e969";
+}
+
+.icon-Icon-Unlock:before {
+  content: "\e96a";
+}
+
+.icon-Icon-Virtual-Tour:before {
+  content: "\e96b";
+}
+
+.icon-Icon-Website:before {
+  content: "\e96c";
+}
+
+.icon-Star-Empty:before{
+  content: "\e96d";
+}
+
+.icon-Star-Half:before{
+  content: "\e96e";
+}
+
+.icon-Star-Full:before{
+  content: "\e96f";
+}
+
+.icon-Credit-Card:before{
+  content: "\e97a";
+}
+
+.icon-Playlist:before{
+  content: "\e970";
+}
+
+.icon-Bath:before{
+  content: "\e903";
+}
+
+.icon-Fax:before{
+  content: "\e902";
+}
+
+.icon-See-More:before{
+  content: "\e971";
+}
+
+.icon-Yukata:before{
+  content: "\e96d";
+}
+
+.icon-Women_s_cosmetics:before{
+  content: "\e96e";
+}
+
+.icon-Wake-up_call:before{
+  content: "\e96f";
+}
+
+.icon-Video_on_demand:before{
+  content: "\e972";
+}
+
+.icon-USB_outlet:before{
+  content: "\e973";
+}
+
+.icon-TV_set:before{
+  content: "\e974";
+}
+
+.icon-Trouser_presser:before{
+  content: "\e975";
+}
+
+.icon-Transformer:before{
+  content: "\e976";
+}
+
+.icon-Towel:before{
+  content: "\e977";
+}
+
+.icon-Toothbrush_set:before{
+  content: "\e978";
+}
+
+.icon-Toothbrush:before{
+  content: "\e979";
+}
+
+.icon-Toilet_2:before{
+  content: "\e97a";
+}
+
+.icon-Toilet:before{
+  content: "\e97c";
+}
+
+.icon-Thermo_pot:before{
+  content: "\e97d";
+}
+
+.icon-Soap:before{
+  content: "\e97e";
+}
+
+.icon-Smoking:before{
+  content: "\e97f";
+}
+
+.icon-Shower_cap:before{
+  content: "\e980";
+}
+
+.icon-Shampoo:before{
+  content: "\e981";
+}
+
+.icon-Sewing_kit:before{
+  content: "\e982";
+}
+
+.icon-Cable_TV:before{
+  content: "\e983";
+}
+
+.icon-Refrigerator:before{
+  content: "\e984";
+}
+
+.icon-Phone:before{
+  content: "\e985";
+}
+
+.icon-Razor:before{
+  content: "\e986";
+}
+
+.icon-Nightwear:before{
+  content: "\e987";
+}
+
+.icon-Modular_jack:before{
+  content: "\e988";
+}
+
+.icon-Mini_bar:before{
+  content: "\e989";
+}
+
+.icon-Mineral_water:before{
+  content: "\e98a";
+}
+
+.icon-Men_s_cosmetics:before{
+  content: "\e98b";
+}
+
+.icon-Lan:before{
+  content: "\e98c";
+}
+
+.icon-Iron:before{
+  content: "\e98d";
+}
+
+.icon-Humidifier:before{
+  content: "\e98e";
+}
+
+.icon-Hairbrush:before{
+  content: "\e98f";
+}
+
+.icon-Hair_dryer:before{
+  content: "\e990";
+}
+
+.icon-Free_wifi:before{
+  content: "\e991";
+}
+
+.icon-Fax:before{
+  content: "\e992";
+}
+
+.icon-DVD_player:before{
+  content: "\e993";
+}
+
+.icon-Desk_lamp:before{
+  content: "\e994";
+}
+
+.icon-Conditioner:before{
+  content: "\e995";
+}
+
+.icon-Coffee_tea:before{
+  content: "\e996";
+}
+
+.icon-Coffee_maker:before{
+  content: "\e997";
+}
+
+.icon-Cleaning_service:before{
+  content: "\e998";
+}
+
+.icon-CD_player:before{
+  content: "\e999";
+}
+
+.icon-Body_soap:before{
+  content: "\e99a";
+}
+
+.icon-Body_lotion:before{
+  content: "\e99b";
+}
+
+.icon-Bathroom:before{
+  content: "\e99c";
+}
+
+.icon-Bathrobe:before{
+  content: "\e99d";
+}
+
+
+.icon-Bath_towel:before{
+  content: "\e99e";
+}
+
+
+.icon-Bath_salt:before{
+  content: "\e99f";
+}
+
+
+.icon-Alarm_clock:before{
+  content: "\e9a0";
+}
+
+
+.icon-Air_purifier:before{
+  content: "\e9a1";
+}
+
+.icon-Air_conditioning:before{
+  content: "\e9a2";
+}
+
+
+
+
+

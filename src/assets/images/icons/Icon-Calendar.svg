@@ -1,0 +1,10 @@
+<svg id="Icon_Calendar" data-name="Icon/Calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_686" data-name="Clip 686" d="M22.5,24H1.5A1.5,1.5,0,0,1,0,22.5V4.5A1.5,1.5,0,0,1,1.5,3H6V.75a.752.752,0,0,1,1.5,0V3h9V.75a.749.749,0,1,1,1.5,0V3h4.5A1.5,1.5,0,0,1,24,4.5v18A1.5,1.5,0,0,1,22.5,24ZM1.5,12V22.5h21V12Zm0-7.5v6h21v-6Z" fill="#232e48"/>
+    </clipPath>
+  </defs>
+  <g id="Group_26" data-name="Group 26">
+    <path id="Clip_686-2" data-name="Clip 686" d="M22.5,24H1.5A1.5,1.5,0,0,1,0,22.5V4.5A1.5,1.5,0,0,1,1.5,3H6V.75a.752.752,0,0,1,1.5,0V3h9V.75a.749.749,0,1,1,1.5,0V3h4.5A1.5,1.5,0,0,1,24,4.5v18A1.5,1.5,0,0,1,22.5,24ZM1.5,12V22.5h21V12Zm0-7.5v6h21v-6Z" fill="#232e48"/>
+  </g>
+</svg>

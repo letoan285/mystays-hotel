@@ -1,0 +1,451 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200520.143523.1728.0.001.json",
+    "dumpEventTime": "2020-05-20T14:35:24Z",
+    "dumpEventTimeStamp": "1589960124000",
+    "processId": 1728,
+    "cwd": "K:\\VueJS\\mystay-hotel-frontend",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "K:\\VueJS\\mystay-hotel-frontend\\node_modules\\.bin\\\\..\\nuxt\\bin\\nuxt.js"
+    ],
+    "nodejsVersion": "v12.6.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.6.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.6.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz",
+        "speed": 2904,
+        "user": 11060406,
+        "nice": 0,
+        "sys": 6590078,
+        "idle": 179228625,
+        "irq": 947609
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz",
+        "speed": 2904,
+        "user": 11060406,
+        "nice": 0,
+        "sys": 6590078,
+        "idle": 179228625,
+        "irq": 947609
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz",
+        "speed": 2904,
+        "user": 11060406,
+        "nice": 0,
+        "sys": 6590078,
+        "idle": 179228625,
+        "irq": 947609
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz",
+        "speed": 2904,
+        "user": 11060406,
+        "nice": 0,
+        "sys": 6590078,
+        "idle": 179228625,
+        "irq": 947609
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz",
+        "speed": 2904,
+        "user": 11060406,
+        "nice": 0,
+        "sys": 6590078,
+        "idle": 179228625,
+        "irq": 947609
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz",
+        "speed": 2904,
+        "user": 11060406,
+        "nice": 0,
+        "sys": 6590078,
+        "idle": 179228625,
+        "irq": 947609
+      }
+    ],
+    "host": "Admin"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff670376db9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10889"
+    },
+    {
+      "pc": "0x00007ff67037a72c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+25596"
+    },
+    {
+      "pc": "0x00007ff6703796d8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+21416"
+    },
+    {
+      "pc": "0x00007ff67046300b",
+      "symbol": "v8::base::CPU::has_sse+37675"
+    },
+    {
+      "pc": "0x00007ff670c48a1e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff670c30d6a",
+      "symbol": "v8::SharedArrayBuffer::Externalize+842"
+    },
+    {
+      "pc": "0x00007ff670ac256c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff670aca48f",
+      "symbol": "v8::internal::Heap::OldGenerationSizeOfObjects+4879"
+    },
+    {
+      "pc": "0x00007ff670ac0733",
+      "symbol": "v8::internal::Heap::CollectGarbage+1235"
+    },
+    {
+      "pc": "0x00007ff670abefc4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2292"
+    },
+    {
+      "pc": "0x00007ff670addaa5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff670893e0d",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+3757"
+    },
+    {
+      "pc": "0x00007ff670cf170d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+614605"
+    },
+    {
+      "pc": "0x00007ff670cf3664",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+622628"
+    },
+    {
+      "pc": "0x00007ff670cc8af4",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+447668"
+    },
+    {
+      "pc": "0x00007ff670cd92cc",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+515212"
+    },
+    {
+      "pc": "0x000001a8260c6f4a",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2151727104,
+    "totalCommittedMemory": 2151727104,
+    "usedMemory": 2107049200,
+    "availableMemory": 55512128,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2094656,
+        "used": 337456,
+        "available": 1757200
+      },
+      "old_space": {
+        "memorySize": 738078720,
+        "committedMemory": 738078720,
+        "capacity": 707395736,
+        "used": 705700376,
+        "available": 1695360
+      },
+      "code_space": {
+        "memorySize": 6717440,
+        "committedMemory": 6717440,
+        "capacity": 5691808,
+        "used": 5691808,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 46141440,
+        "committedMemory": 46141440,
+        "capacity": 40239360,
+        "used": 40239360,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1355128832,
+        "committedMemory": 1355128832,
+        "capacity": 1353947920,
+        "used": 1353947920,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 1204224,
+        "committedMemory": 1204224,
+        "capacity": 1100320,
+        "used": 1100320,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 5741504,
+        "used": 0,
+        "available": 5741504
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 2297.51,
+    "kernelCpuSeconds": 107.14,
+    "cpuConsumptionPercent": 2.82744,
+    "maxRss": 2016157696,
+    "pageFaults": {
+      "IORequired": 31956562,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 56540,
+      "writes": 933
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "=K:": "K:\\VueJS\\mystay-hotel-frontend",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\Admin\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132264007994663571",
+    "CLASSPATH": ".;",
+    "COCOS_CONSOLE_ROOT": "K:\\cocos2d-x-4.0\\tools\\cocos2d-console\\bin",
+    "COCOS_TEMPLATES_ROOT": "K:\\cocos2d-x-4.0\\templates",
+    "COCOS_X_ROOT": "K:\\",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "ADMIN",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "k:\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Admin",
+    "INIT_CWD": "K:\\VueJS\\mystay-hotel-frontend",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_211",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Admin\\AppData\\Local",
+    "LOGONSERVER": "\\\\ADMIN",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.6.0 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_config__mobiscroll_registry": "https://npm.mobiscroll.com",
+    "npm_execpath": "C:\\Users\\Admin\\AppData\\Roaming\\nvm\\v12.6.0\\node_modules\\yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "dev",
+    "npm_lifecycle_script": "nuxt",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_author_name": "mystay",
+    "npm_package_dependencies_bootstrap": "^4.4.1",
+    "npm_package_dependencies_bootstrap_vue": "^2.0.0",
+    "npm_package_dependencies_crypto_js": "^4.0.0",
+    "npm_package_dependencies_moment": "^2.25.3",
+    "npm_package_dependencies_numeral": "^2.0.6",
+    "npm_package_dependencies_nuxt": "^2.0.0",
+    "npm_package_dependencies_rxjs": "^6.5.5",
+    "npm_package_dependencies_util": "^0.12.3",
+    "npm_package_dependencies_vue2_daterange_picker": "^0.5.0",
+    "npm_package_dependencies_vuex_class": "^0.3.2",
+    "npm_package_dependencies_vue_hotel_datepicker": "^2.7.8",
+    "npm_package_dependencies_vue_i18n": "^8.17.5",
+    "npm_package_dependencies_vue_lodash": "^2.1.2",
+    "npm_package_dependencies_vue_property_decorator": "^8.4.2",
+    "npm_package_dependencies_vue_select": "^3.10.3",
+    "npm_package_dependencies_vue_uuid": "^1.1.1",
+    "npm_package_dependencies__mobiscroll_javascript": "4.10.3",
+    "npm_package_dependencies__nuxtjs_axios": "^5.3.6",
+    "npm_package_dependencies__nuxtjs_dotenv": "^1.4.0",
+    "npm_package_dependencies__types_vue_select": "^2.5.0",
+    "npm_package_description": "mystay hotel system",
+    "npm_package_devDependencies_babel_eslint": "^10.0.1",
+    "npm_package_devDependencies_babel_jest": "^24.1.0",
+    "npm_package_devDependencies_eslint": "^6.1.0",
+    "npm_package_devDependencies_eslint_plugin_nuxt=>": "0.4.2",
+    "npm_package_devDependencies_jest": "^24.1.0",
+    "npm_package_devDependencies_node_sass": "^4.14.1",
+    "npm_package_devDependencies_sass_loader": "^8.0.2",
+    "npm_package_devDependencies_stylelint": "^10.1.0",
+    "npm_package_devDependencies_ts_jest": "^25.0.0",
+    "npm_package_devDependencies_vue_jest": "^4.0.0-0",
+    "npm_package_devDependencies_webfonts_generator": "^0.4.0",
+    "npm_package_devDependencies__nuxtjs_eslint_config_typescript": "^1.0.0",
+    "npm_package_devDependencies__nuxtjs_eslint_module": "^1.0.0",
+    "npm_package_devDependencies__nuxtjs_stylelint_module": "^3.1.0",
+    "npm_package_devDependencies__nuxtjs_style_resources": "^1.0.0",
+    "npm_package_devDependencies__nuxt_typescript_build": "^0.6.0",
+    "npm_package_devDependencies__types_numeral": "^0.0.27",
+    "npm_package_devDependencies__vue_test_utils": "^1.0.0-beta.27",
+    "npm_package_name": "mystay-hotel",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "nuxt build",
+    "npm_package_scripts_dev": "nuxt",
+    "npm_package_scripts_generate": "nuxt generate",
+    "npm_package_scripts_lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "npm_package_scripts_start": "nuxt start",
+    "npm_package_scripts_test": "jest",
+    "npm_package_version": "1.0.0",
+    "NUMBER_OF_PROCESSORS": "6",
+    "NVM_HOME": "C:\\Users\\Admin\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OneDrive": "C:\\Users\\Admin\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\yarn--1589875076739-0.0870973139796094;K:\\VueJS\\mystay-hotel-frontend\\node_modules\\.bin;C:\\Users\\Admin\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Admin\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;K:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;K:\\cocos2d-x-4.0\\templates;K:\\cocos2d-x-4.0\\tools\\cocos2d-console\\bin;C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python38-32\\Scripts\\;C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python38-32\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;K:\\Microsoft VS Code\\bin;C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools;%NVM_HOME%;%NVM_SYMLINK%;K:\\src\\flutter\\flutter\\bin;C:\\Users\\Admin\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Admin\\AppData\\Local\\Yarn\\bin;C:\\Users\\Admin\\.dotnet\\tools",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Admin\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\Admin\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.45.1",
+    "TMP": "C:\\Users\\Admin\\AppData\\Local\\Temp",
+    "USERDOMAIN": "ADMIN",
+    "USERDOMAIN_ROAMINGPROFILE": "ADMIN",
+    "USERNAME": "Admin",
+    "USERPROFILE": "C:\\Users\\Admin",
+    "VSCODE_GIT_ASKPASS_MAIN": "k:\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "K:\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-3fc2432dcf-sock",
+    "VUE_ENV": "server",
+    "windir": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false",
+    "_AXIOS_BASE_URL_": "http://localhost:3000/"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "\\\\?\\K:\\VueJS\\mystay-hotel-frontend\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}

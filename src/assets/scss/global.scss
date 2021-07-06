@@ -1,0 +1,325 @@
+@import "fonts";
+@import "icomoon";
+@import "custom";
+
+html {
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: $font-english, sans-serif;
+}
+
+html[lang="ja-JP"] {
+  font-size: 14px;
+  font-family: $font-japan, sans-serif;
+}
+
+html[lang="en-US"] {
+  font-family: $font-english, sans-serif;
+}
+
+html[lang="en"] {
+  font-family: $font-english, sans-serif;
+}
+
+html[lang="zh-CN"] {
+  font-family: $font-chinese, sans-serif;
+}
+
+html[lang="zh-TW"] {
+  font-family: $font-taiwanese, sans-serif;
+}
+
+html[lang="ko-KR"] {
+  font-family: $font-korean, sans-serif;
+}
+
+body {
+  background-color: #eaeff3;
+  height: 100%;
+  font-family: inherit;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  overflow: hidden;
+}
+
+// ul ol
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  @include min-xl {
+    padding: 0;
+  }
+}
+
+.m-btn {
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  outline: none;
+  &__yellow {
+    border: 1px solid #ffd25d;
+    @include m-btn-bgr(#ffd25d, #232e48);
+    &:hover {
+      border: 1px solid #232e48;
+    }
+    &:disabled {
+      background: lightgray;
+      border: 1px solid lightgray;
+    }
+  }
+  &__black {
+    border: 1px solid #232e48;
+    @include m-btn-bgr(white, #232e48);
+    &:hover {
+      border: 1px solid #232e48;
+    }
+    &:disabled {
+      background: lightgray;
+      border: 1px solid lightgray;
+      color: white;
+    }
+  }
+  &__blue {
+    border: 1px solid $bg-color-blue-2;
+    @include m-btn-bgr($bg-color-blue-2, white);
+    &:hover {
+      border: 1px solid $bg-color-blue-2;
+    }
+    &:disabled {
+      background: lightgray;
+      border: 1px solid lightgray;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  &__white {
+    border: 1px solid #d1d1d1;
+    @include m-btn-bgr(white, $bg-color-blue-2);
+    &:hover {
+      border: 1px solid $bg-color-blue-2;
+    }
+  }
+  &__gray {
+    border: 1px solid $border-color-blue;
+    @include m-btn-bgr($border-color-blue, $bg-color-gray-5);
+    &:hover {
+      border: 1px solid $border-color-blue;
+      background-color: $bg-color-gray-5;
+    }
+    &:disabled {
+      background: lightgray;
+      border: 1px solid lightgray;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  &__pink {
+    border: 1px solid $bg-color-pink;
+    @include m-btn-bgr($bg-color-pink, $white);
+    &:hover {
+      border: 1px solid $bg-color-pink;
+      background-color: $bg-color-gray-5;
+    }
+    &:disabled {
+      background: lightgray;
+      border: 1px solid lightgray;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  &__orange {
+    border: 1px solid #ff890d;
+    color: white;
+    background-color: #ff890d;
+    &:hover {
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s ease;
+  z-index: 10000;
+  opacity: 0.8;
+}
+
+.mystay-popup {
+  max-width: 600px;
+  .modal-content {
+    border: none;
+    background: $text-color-blue;
+    border-radius: 3px;
+  }
+}
+
+.modal {
+  z-index: 10001;
+}
+
+.modal-backdrop {
+  z-index: 10000;
+}
+
+#modal-xl___BV_modal_outer_ {
+  z-index: 10000 !important;
+}
+
+.modal-delete {
+  max-width: 400px;
+}
+
+.modal-error {
+  max-width: 500px;
+}
+
+.see-more-btn {
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    right: 0;
+    top: -70px;
+    background: linear-gradient(to bottom, transparent 0%, white 100%);
+  }
+}
+
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  width: 16px;
+  height: 17px;
+}
+
+.form-check {
+  margin-bottom: 3px;
+}
+
+.form-check-label {
+  margin-left: 5px;
+  margin-top: 1px;
+  font-size: 15px;
+}
+
+$white: white;
+.app-input__validation,
+.app-select-hotel__validation {
+  color: red;
+}
+
+.app-month-year-selector,
+.app-input,
+.app-select,
+.app-select-hotel {
+  &.has-error {
+    label {
+      color: red;
+    }
+    select,
+    input {
+      border: 1.5px solid red;
+    }
+  }
+}
+
+.gm-style .gm-style-iw-c {
+  border-radius: 0px !important;
+  padding-left: 17px;
+}
+
+.active-section {
+  z-index: 1000;
+  @include min-sm {
+    .search-box-top__title,
+    .checkin__top__title,
+    .room-select__top__title,
+    .promotion-code__title,
+    .search-button__title {
+      color: #fff !important;
+    }
+  }
+}
+
+.vue-slider-process {
+  background-color: $bg-color-blue-2;
+}
+
+.vue-slider-dot {
+  width: 16px !important;
+  height: 16px !important;
+  &-handle {
+    box-shadow: none;
+    border: 1px solid $border-color-blue-2;
+  }
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.1s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+
+  @include min-sm {
+    padding-right: 17px;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.error {
+  color: red;
+}

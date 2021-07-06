@@ -1,0 +1,10 @@
+<svg id="Icon_Website" data-name="Icon/Website" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_49" data-name="Clip 49" d="M23.2,24H.8a.8.8,0,0,1-.8-.8V.806A.8.8,0,0,1,.8,0H23.2a.794.794,0,0,1,.8.806V23.2A.793.793,0,0,1,23.2,24ZM1.6,8V21.6a.8.8,0,0,0,.8.8H21.6a.8.8,0,0,0,.8-.8V8ZM2.4,1.6a.8.8,0,0,0-.8.806V6.393H22.4V2.4a.8.8,0,0,0-.8-.806Zm8.8,3.2H9.6V3.2h1.6V4.8ZM8,4.8H6.4V3.2H8V4.8Zm-3.2,0H3.2V3.2H4.8V4.8Z" fill="#232e48"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1">
+    <path id="Clip_49-2" data-name="Clip 49" d="M23.2,24H.8a.8.8,0,0,1-.8-.8V.806A.8.8,0,0,1,.8,0H23.2a.794.794,0,0,1,.8.806V23.2A.793.793,0,0,1,23.2,24ZM1.6,8V21.6a.8.8,0,0,0,.8.8H21.6a.8.8,0,0,0,.8-.8V8ZM2.4,1.6a.8.8,0,0,0-.8.806V6.393H22.4V2.4a.8.8,0,0,0-.8-.806Zm8.8,3.2H9.6V3.2h1.6V4.8ZM8,4.8H6.4V3.2H8V4.8Zm-3.2,0H3.2V3.2H4.8V4.8Z" fill="#232e48"/>
+  </g>
+</svg>

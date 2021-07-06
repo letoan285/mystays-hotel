@@ -1,0 +1,8 @@
+<svg id="Arrow_Background" data-name="Arrow/Background" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Arrow_With_Background" data-name="Arrow/With Background">
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="60" height="60" fill="#232e48" opacity="0.95"/>
+    <g id="Arrow_Thin_Right" data-name="Arrow/Thin/Right" transform="translate(23 17)">
+      <path id="arrow" d="M11.329.333c0,.007,0,.012-.007.018h0c-.016.012-.039,0-.057.02h0L.369,11.383A1.069,1.069,0,0,0,.369,13h0a1.348,1.348,0,0,0,1.776,0h0L12.2,2.835,22.227,12.961a1.341,1.341,0,0,0,1.776,0h0a1.063,1.063,0,0,0,0-1.615h0L13.108.333A1.317,1.317,0,0,0,12.22,0h0a1.316,1.316,0,0,0-.89.333Z" transform="translate(14.167 0.813) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54 (76480) - https://sketchapp.com -->
+    <title>B9169F5B-541C-40F2-B947-595E09CA3723</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-3.5%" y="-23.6%" width="107.1%" height="147.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.160416667   0 0 0 0 0.210833333   0 0 0 0 0.33  0 0 0 0.48322771 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-/-1b-Select-Destination" transform="translate(-437.000000, -309.000000)" fill="#232E48" stroke="#FFFFFF" stroke-width="0.4">
+            <g id="BG" transform="translate(-0.000000, 0.000000)">
+                <g id="1-Home-/-Layout" transform="translate(0.000000, 0.000000)">
+                    <g id="Template">
+                        <g id="Booking-Console/White" transform="translate(165.000000, 245.000000)">
+                            <g filter="url(#filter-1)" id="Book">
+                                <g transform="translate(37.000000, 27.000000)">
+                                    <g id="Group-9">
+                                        <path d="M257.316008,53.9679152 C257.316008,54.3414553 257.011972,54.6410935 256.637357,54.6410935 C256.262742,54.6410935 255.958706,54.3414553 255.958706,53.9679152 L255.958706,49.3336 C251.6357,49.6654863 248.2153,53.0542202 247.880046,57.3270884 L252.565452,57.3270884 C252.940067,57.3270884 253.244103,57.629414 253.244103,57.998923 C253.244103,58.372463 252.940067,58.6721013 252.565452,58.6721013 L247.880046,58.6721013 C248.2153,62.9463132 251.6357,66.335047 255.958706,66.6669333 L255.958706,62.0312744 C255.958706,61.6604217 256.262742,61.3580961 256.637357,61.3580961 C257.011972,61.3580961 257.316008,61.6604217 257.316008,62.0312744 L257.316008,66.6669333 C261.637656,66.335047 265.058057,62.9463132 265.39331,58.6721013 L260.709262,58.6721013 C260.334647,58.6721013 260.030611,58.372463 260.030611,57.998923 C260.030611,57.629414 260.334647,57.3270884 260.709262,57.3270884 L265.39331,57.3270884 C265.058057,53.0542202 261.637656,49.6654863 257.316008,49.3336 L257.316008,53.9679152 Z M256.636678,68 C251.055336,68 246.532872,63.5226667 246.532872,57.9986667 C246.532872,52.4786667 251.055336,48 256.636678,48 C262.218021,48 266.740484,52.4786667 266.740484,57.9986667 C266.740484,63.5226667 262.218021,68 256.636678,68" id="Location-icon"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

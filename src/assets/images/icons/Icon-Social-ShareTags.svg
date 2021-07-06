@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="221" height="16" viewBox="0 0 221 16">
+  <g id="Icon_Social_ShareTags" data-name="Icon/Social/ShareTags" transform="translate(0)">
+    <g id="icon_share" data-name="icon/share">
+      <text id="Like_It" data-name="Like It" transform="translate(171 1)" fill="#2e2e2e" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.057em"><tspan x="0" y="11">LIKE IT</tspan></text>
+      <text id="Tweet" transform="translate(96 1)" fill="#2e2e2e" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.057em"><tspan x="0" y="11">TWEET</tspan></text>
+      <text id="Share" transform="translate(21 1)" fill="#2e2e2e" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.057em"><tspan x="0" y="11">SHARE</tspan></text>
+      <g id="icon_template_mail_default" data-name="icon/template/mail/default">
+        <path id="_" data-name="" d="M14.75,10.667h-13a1.7,1.7,0,0,1-1.187-.545A1.608,1.608,0,0,1,0,8.969V1.151a.136.136,0,0,1,.016-.061.338.338,0,0,1,0-.2A.556.556,0,0,1,.125.7.211.211,0,0,0,.156.659.122.122,0,0,1,.2.621,1.459,1.459,0,0,1,.867.159,2.536,2.536,0,0,1,1.75,0h13a1.426,1.426,0,0,1,.8.2.969.969,0,0,1,.4.614.384.384,0,0,1,.039.128.475.475,0,0,1-.008.144A.136.136,0,0,1,16,1.151V8.969a2.294,2.294,0,0,1-.313,1.152A1.018,1.018,0,0,1,14.75,10.667ZM1,2.03V8.969a.727.727,0,0,0,.273.463A.762.762,0,0,0,1.75,9.7h13c.135,0,.211-.089.227-.265S15,9.1,15,8.969V2.03L8.328,7.2a.613.613,0,0,1-.156.091.5.5,0,0,1-.344,0A.623.623,0,0,1,7.672,7.2ZM1.516.97a2.2,2.2,0,0,0-.25.015L8,6.2,14.75.97Z" transform="translate(0 2.667)" fill="#232e48"/>
+      </g>
+      <g id="icon_social_twitter" data-name="icon/social/twitter" transform="translate(76)">
+        <path id="Stroke_146" data-name="Stroke 146" d="M15,1.405a6.291,6.291,0,0,1-1.767.474A3.04,3.04,0,0,0,14.588.219a6.244,6.244,0,0,1-1.96.727A3.111,3.111,0,0,0,10.385,0,3.039,3.039,0,0,0,7.31,3a3.061,3.061,0,0,0,.078.683A8.814,8.814,0,0,1,1.044.549,2.915,2.915,0,0,0,.627,2.057,2.976,2.976,0,0,0,2,4.551,3.1,3.1,0,0,1,.605,4.176v.037A3.027,3.027,0,0,0,3.071,7.157a3.246,3.246,0,0,1-.809.1,3.175,3.175,0,0,1-.582-.053A3.081,3.081,0,0,0,4.555,9.289,6.291,6.291,0,0,1,.732,10.57,6.919,6.919,0,0,1,0,10.529a8.874,8.874,0,0,0,4.719,1.346,8.577,8.577,0,0,0,8.752-8.528l-.01-.389A6.087,6.087,0,0,0,15,1.405" transform="translate(0 1.25)" fill="none" stroke="#232e48" stroke-miterlimit="10" stroke-width="1.02"/>
+      </g>
+      <g id="icon_social_facebook" data-name="icon/social/facebook" transform="translate(151)">
+        <path id="Stroke_149" data-name="Stroke 149" d="M5.691,15H1.918V7.941H0V4.627H1.916l0-.992A3.851,3.851,0,0,1,2.73.891,3.64,3.64,0,0,1,5.491,0H8.056V3.316H6.186c-.24,0-.368,0-.43.068s-.061.187-.061.431V3.85l0,.775H8.125L7.741,7.94H5.692V15ZM5.491.883c-2,0-2.68.694-2.68,2.75l0,1.875H.9v1.55H2.814v7.059H4.795V7.059H6.941L7.12,5.507H4.793l0-.442,0-1.217c0-1.045.389-1.415,1.486-1.415h.875V.883Z" transform="translate(3.75 0)" fill="#232e48"/>
+      </g>
+    </g>
+  </g>
+</svg>

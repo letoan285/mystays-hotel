@@ -1,0 +1,13 @@
+<svg id="Icon_Social_LoginFB" data-name="Icon/Social/LoginFB" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_1725" data-name="Clip 1725" d="M0,0H20V20H13.805V12.275H16.4l.415-3.154H13.805V6.929A1.108,1.108,0,0,1,14.913,5.82h1.948V2.984H14.139a3.489,3.489,0,0,0-3.488,3.488V9.121h-2.6v3.154h2.6V20H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1726" data-name="Group 1726">
+    <path id="Clip_1725-2" data-name="Clip 1725" d="M0,0H20V20H13.805V12.275H16.4l.415-3.154H13.805V6.929A1.108,1.108,0,0,1,14.913,5.82h1.948V2.984H14.139a3.489,3.489,0,0,0-3.488,3.488V9.121h-2.6v3.154h2.6V20H0Z" fill="none"/>
+    <g id="Group_1726-2" data-name="Group 1726" clip-path="url(#clip-path)">
+      <path id="Fill_1724" data-name="Fill 1724" d="M0,30H30V0H0Z" transform="translate(-5 -5)" fill="#4d6fa9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Lato";
+  src: url("~assets/fonts/Lato/Lato-Regular.eot");
+  src: url("~assets/fonts/Lato/Lato-Regular.woff") format("woff"),
+    url("~assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Microsoft Yahei";
+  font-display: fallback;
+  src: url("~assets/fonts/MicrosoftYahei/Microsoft-YaHei.ttf") format("opentype");
+  // font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Malgun Gothic";
+  font-display: fallback;
+  src: url("~assets/fonts/MalgunGothic/malgun.ttf") format("opentype");
+  // font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Microsoft Jhenghei";
+  font-display: fallback;
+  src: url("~assets/fonts/MicrosoftJhenghei/Microsoft-JhengHei.ttf") format("opentype");
+  // font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Lato-Bold';
+//     font-display: fallback;
+//     src: url('~assets/fonts/Lato/Lato-Bold.ttf') format('opentype');
+//     font-weight: normal;
+//     // font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'SF';
+//     font-display: fallback;
+//     src: url('~assets/fonts/SFNS/SFSN.ttf') format('opentype');
+//     // font-weight: normal;
+//     font-style: normal;
+// }

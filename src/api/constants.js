@@ -1,0 +1,24 @@
+/* eslint-disable no-undef */
+
+module.exports = {
+  sessionUrl: 'https://idp.tripla.ai/api/client_sessions',
+  accessTokenUrl:
+    'https://mystaystripla.auth.ap-northeast-1.amazoncognito.com/oauth2/token',
+  headers: {
+    Authorization:
+    'Basic N2Q4YWwybnVqdGhodmVycTlpdmZpN2FvbzY6MTlhM28xamE4MWRxa2w2ODFxb2NibWdjZWcwY2ttdjk4NGkyZDc4aWlvbHFxaDRlb2dsNQ==',
+    'Content-Type': 'application/x-www-form-urlencoded'
+  },
+  data: {
+    grant_type: 'refresh_token',
+    client_id: '7d8al2nujthhverq9ivfi7aoo6',
+    refresh_token:
+      'eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.YBmF34OONuXhl3I2s9v2_FgXDYfi5Ktc1fobqyKU8cO7T6kIA3ubGjdkbneDWxvkZchm_v66xzyzXs3GrJvFDaMNwVptlSL8yrbP0GSFDOYJhOfMjb0poiKAYcrzxNSudiXd2DgxSwM6I6N45gQ-WSyVu45UVwzvFatbhNP33MAAPSCIyyt2uUgPsIHcpmCeUXZEPMul79HB0LJjAq_8Sq1jvEvRGRwighbg_-i469k7AHvEXazRjU0X4iITqBZ1LRl9W0L_giAmihMNV9_qxrgna38FHLqgoBHDwm7ZU4ZxS4aGIIeP-WF0WYnZtU4ik_uKXWzifs8EcVOnUlBXOA.Ntys2kkd-rdqXkjr.MIhngA9uqj3y3Vhe6FReOIj5dVqlKyzET-_C0WrMbMUpXRuLEuXG7SuWC_irSRGoB72Xp2S9t-DetZdSYL4SaUsLGcBsDdGUSe0LD_anuF_pSWolszYBA3hp68zfrLfAQzlK-UJP6BPrwwCZYzhXh0AdYWUBiw_-ufBJb4g07jVca5DNIG9qIQWcV5T52owsFCbbbqzyT5Wendjw4mZ5erxHPkjgRBRvL4VlT7pqO_C9vU2yjAwSpjRCaq0XyJABp9TEv5GrM7eMSCxvP49flaETJb5GDCitLWmvLihS2T2Cfl0-w3tHD6DV8u6W2_QNMedLVNjRNhvon5J9u3SGlT2TQZfCs33FTmLENKO12neTerxaNz2jSkWRiXmNaycx6lo3xfcSqH3x5jzyokjTc2aq0PVo_QJ4MF1KB98jVL1QQ2FWfJMSi19ccC8HTwFRQ7wO5E50yIhFZOoaR40gKrwbDMB8z4W_9HrlxBiiryAXABkiYWaBD3DJbYNSiH_oeY1_oyM5L-YrstDcI0oQn5sVdfwsX7vuL6SQ4TLhWrFhPRYJSREjvKHXotLqn7o5mnRxWskWxV4RBYRIYOlyyF4fy1GBluTyY6Frjq7ksMAO6gfo8ONXOT0_CCeKwp-lGu3FZa8zL_sTIBccuYjcnK9gnPO93_FNpXgktd09YJ_UhuTr_z7muS0UMy_yiTBgDUj8UKWoAWuP9G0iCl0YQsSjA7Qa9ywwShPV60O9BVg7u-DkDCDBMseN30NmoXuzR0z2JXYqxtWrh55OUgXCTDiFcqO2vRHAVVcDxTpXuK8-BAnKLTm42-oqVLGwqiizWPz54jOWU3DOFJvqv4vHB9ad4l9ha9k0PjC2BAa7-OEaeYM1mOUVhTBisNDrEemzBRM-z0rDXxDl8kTEnUENgL9yVKxfSUavI23uVENm-7GoUvy42goONdeHpUWY3hkOnyF7N58bxED64a7JtQ7Wx9Zqa71xzx6FAdK4YE95YbyuEDsbmvP6GuUkVKW3wVMRochgzJKmN6IgyodVMiGOWyWtCTi4jn-ifbZBTxpYVmVmFEy1_CAYtARSDgwRx7uIPh3pTvdpiUeukpxBIunGqkzPQr2QA66Imdve7HlUVGusiFzjMupywXgMK29nDGbiRgre7BwZLnsu0yra2cm7DsXbF0RtEf9CcZH7WZk06viIDGEW6DBJJ9fpg0majDFj5xnwZkawUWxSW7nvxLK56F5bhV4T7hSmpKhZTGD-HMAK16UWP1PxAJZsYrugchTiOi7jQA.6hxB-nOK1FyzddaQ_qEscQ'
+  },
+  client_key: '95c4c740baf34b0',
+  client_secret: '49edc0373a99c2d7',
+  fb_app_id: '170803640303814',
+  product_key: 'c8c604a2d81f7b2fe901',
+  product_secret: '1882351c176e635f5c64',
+  domain: 'https://phase2.booking.mystays.com'
+}
